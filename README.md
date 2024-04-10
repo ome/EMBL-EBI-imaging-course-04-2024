@@ -1,7 +1,7 @@
 # EMBL-EBI-imaging-course-04-2024
 [![Actions Status](https://github.com/ome/EMBL-EBI-imaging-course-04-2024/workflows/build/badge.svg)](https://github.com/ome/EMBL-EBI-imaging-course-04-2024/actions)
 
-This repository contains materials for the April 2024 virtual course [Microscopy data analysis: machine learning and the BioImage Archive](https://www.ebi.ac.uk/training/events/microscopy-data-analysis-0/).
+This repository contains materials for the April 2024 virtual course [Microscopy data analysis: machine learning and the BioImage Archive](https://www.ebi.ac.uk/training/events/microscopy-data-analysis-machine-learning-and-bioimage-archive/).
 
 Day 4 *Image data resource practical* contains a collection of notebooks with code and text.
 
