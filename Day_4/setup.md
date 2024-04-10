@@ -1,7 +1,7 @@
 ## Running the notebooks
 
 ### Running on cloud resources
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ome/EMBL-EBI-imaging-course-05-2023/)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ome/EMBL-EBI-imaging-course-04-2024/)
 
 
 ### Running locally
@@ -21,23 +21,23 @@ Create the environments. For this, first run the commands below as written, then
 
 For Windows, OS X x86_64 (NOT arm64 Apple Silicon), Linux:
 
-    $ git clone https://github.com/ome/EMBL-EBI-imaging-course-05-2023
+    $ git clone https://github.com/ome/EMBL-EBI-imaging-course-04-2024
     
-    $ cd EMBL-EBI-imaging-course-05-2023
+    $ cd EMBL-EBI-imaging-course-04-2024
 
     $ mamba env create -f Day_4/environment_cellpose.yml
 
 For OS X arm64 Apple Silicon
 
-    $ git clone https://github.com/ome/EMBL-EBI-imaging-course-05-2023   
+    $ git clone https://github.com/ome/EMBL-EBI-imaging-course-04-2024   
     
-    $ cd EMBL-EBI-imaging-course-05-2023
+    $ cd EMBL-EBI-imaging-course-04-2024
     
     $ CONDA_SUBDIR=osx-64 mamba env create -f Day_4/environment_cellpose.yml
 
 and activate the newly created environment:
 
-    $ conda activate imaging_course_cellpose_day4_2023
+    $ conda activate imaging_course_cellpose_day4_2024
 
 
 Before creating a new environment, remember to deactivate the current one:
@@ -51,12 +51,12 @@ The following steps are only required if you want to run the notebooks.
 * If you have Anaconda installed:
   * Start Jupyter from the Anaconda-navigator
   * In the conda environment, run ``mamba install ipykernel`` (for OS X Apple Silicon ``CONDA_SUBDIR=osx-64 mamba install ipykernel``)
-  * To register the environment, run ``python -m ipykernel install --user --name imaging_course_cellpose_day4_2023``
-  * Select the notebook you wish to run and select the ``Kernel>Change kernel>Python [conda env:imaging_course_cellpose_day4_2023]`` or ``Kernel>Change kernel>imaging_course_cellpose_day4_2023``
+  * To register the environment, run ``python -m ipykernel install --user --name imaging_course_cellpose_day4_2024``
+  * Select the notebook you wish to run and select the ``Kernel>Change kernel>Python [conda env:imaging_course_cellpose_day4_2024]`` or ``Kernel>Change kernel>imaging_course_cellpose_day4_2024``
 * If Anaconda is not installed:
   * In the environment, install ``jupyter`` e.g. ``pip install jupyter``
-  * Add the virtualenv as a jupyter kernel i.e. ``ipython kernel install --name "imaging_course_cellpose_day4_2023" --user``
-  * Open jupyter notebook i.e. ``jupyter notebook`` and select the ``imaging_course_cellpose_day4_2023`` kernel or ``[conda env:imaging_course_cellpose_day4_2023]`` according to what is available.
+  * Add the virtualenv as a jupyter kernel i.e. ``ipython kernel install --name "imaging_course_cellpose_day4_2024" --user``
+  * Open jupyter notebook i.e. ``jupyter notebook`` and select the ``imaging_course_cellpose_day4_2024`` kernel or ``[conda env:imaging_course_cellpose_day4_2024]`` according to what is available.
 
   To stop the notebook server, in the terminal where te server is running, press ``Ctrl C``. The following question will be asked in the terminal ``Shutdown this notebook server (y/[n])?``. Enter the desired choice.
   

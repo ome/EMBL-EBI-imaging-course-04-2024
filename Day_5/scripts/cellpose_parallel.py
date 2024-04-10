@@ -34,8 +34,8 @@
 # files on disk.
 # In the command below, we assume that you are in the
 # directory Day_5/scripts.
-# This script must be run the imaging_course_day5_2023 environment i.e.
-#  conda activate imaging_course_day5_2023
+# This script must be run the imaging_course_day5_2024 environment i.e.
+#  conda activate imaging_course_day5_2024
 #  python cellpose_parallel.py
 
 import dask

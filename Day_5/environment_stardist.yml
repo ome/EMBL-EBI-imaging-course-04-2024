@@ -1,4 +1,4 @@
-name: imaging_course_stardist_day5_2023
+name: imaging_course_stardist_day5_2024
 channels:
   - conda-forge
 dependencies:
