@@ -15,4 +15,4 @@ dependencies:
     - jupyter==1.0.0
     - omero-py==5.19.1
     - matplotlib==3.8.4
-    - scikit-image==0.23.1
+    - scikit-image==0.22.0
