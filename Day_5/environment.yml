@@ -6,8 +6,8 @@ dependencies:
   - conda-forge::ipywidgets==8.0.4
   - pip
   - pip:
-    - cellpose==2.2.1
-    - matplotlib==3.7.1
-    - ome-zarr==0.7.1
-    - pandas==2.0.1
+    - cellpose==3.0.7
+    - matplotlib==3.8.4
+    - ome-zarr==0.8.3
+    - pandas==2.2.2
     
