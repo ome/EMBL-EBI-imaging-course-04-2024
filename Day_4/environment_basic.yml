@@ -3,15 +3,16 @@ channels:
   - bioconda
   - conda-forge
   - defaults
-  - ome
 dependencies:
-  - python==3.9.*
+  - python==3.10.*
   - numpy==1.26.4
   - scikit-image==0.22.0
-  - ome::zeroc-ice36-python==3.6.5
+  - conda-forge::ipywidgets==8.0.4
   - pip
   - pip:
+    - https://github.com/glencoesoftware/zeroc-ice-py-linux-x86_64/releases/download/20240202/zeroc_ice-3.6.5-cp310-cp310-manylinux_2_28_x86_64.whl; platform_system=="Linux"
+    - https://github.com/glencoesoftware/zeroc-ice-py-macos-universal2/releases/download/20240131/zeroc_ice-3.6.5-cp310-cp310-macosx_11_0_universal2.whl; platform_system == "Darwin"
+    - https://github.com/glencoesoftware/zeroc-ice-py-win-x86_64/releases/download/20240325/zeroc_ice-3.6.5-cp310-cp310-win_amd64.whl;  platform_system=="Windows"
     - jupyter==1.0.0
-    - ipywidgets<8  # required for display. Remove if you are not using notebook
     - omero-py==5.19.1
     - matplotlib==3.8.4
