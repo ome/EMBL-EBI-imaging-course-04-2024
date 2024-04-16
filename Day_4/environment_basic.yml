@@ -4,15 +4,15 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python==3.10.*
+  - conda-forge::python==3.9.*
   - numpy==1.26.4
-  - scikit-image==0.22.0
   - conda-forge::ipywidgets==8.0.4
   - pip
   - pip:
-    - https://github.com/glencoesoftware/zeroc-ice-py-linux-x86_64/releases/download/20240202/zeroc_ice-3.6.5-cp310-cp310-manylinux_2_28_x86_64.whl; platform_system=="Linux"
-    - https://github.com/glencoesoftware/zeroc-ice-py-macos-universal2/releases/download/20240131/zeroc_ice-3.6.5-cp310-cp310-macosx_11_0_universal2.whl; platform_system == "Darwin"
-    - https://github.com/glencoesoftware/zeroc-ice-py-win-x86_64/releases/download/20240325/zeroc_ice-3.6.5-cp310-cp310-win_amd64.whl;  platform_system=="Windows"
+    - https://github.com/glencoesoftware/zeroc-ice-py-linux-x86_64/releases/download/20240202/zeroc_ice-3.6.5-cp39-cp39-manylinux_2_28_x86_64.whl; platform_system=="Linux"
+    - https://github.com/glencoesoftware/zeroc-ice-py-macos-x86_64/releases/download/20231130/zeroc_ice-3.6.5-cp39-cp39-macosx_11_0_x86_64.whl; platform_system == "Darwin"
+    - https://github.com/glencoesoftware/zeroc-ice-py-win-x86_64/releases/download/20240325/zeroc_ice-3.6.5-cp39-cp39-win_amd64.whl;  platform_system=="Windows"
     - jupyter==1.0.0
     - omero-py==5.19.1
     - matplotlib==3.8.4
+    - scikit-image==0.23.1
