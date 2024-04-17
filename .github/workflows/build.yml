@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        envs: [Day_4/environment_cellpose.yml, Day_4/environment_public.yml, Day_5/environment_conversion.yml, Day_5/environment_minio.yml, Day_5/environment.yml, Day_5/environment_stardist.yml]
+        envs: [Day_4/environment_basic.yml, Day_4/environment_cellpose.yml, Day_4/environment_public.yml, Day_5/environment_conversion.yml, Day_5/environment_minio.yml, Day_5/environment.yml, Day_5/environment_stardist.yml]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
