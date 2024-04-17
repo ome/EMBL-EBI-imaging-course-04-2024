@@ -1,4 +1,4 @@
-name: imaging_course_day5_2024
+name: imaging_course_basic_day5_2024
 channels:
   - conda-forge
 dependencies:
@@ -6,9 +6,8 @@ dependencies:
   - conda-forge::ipywidgets==8.0.4
   - pip
   - pip:
+    - dask-image==2023.8.1
     - jupyter==1.0.0
-    - cellpose==3.0.7
     - matplotlib==3.8.4
     - ome-zarr==0.8.3
     - pandas==2.2.2
-    
