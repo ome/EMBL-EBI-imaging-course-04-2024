@@ -10,6 +10,7 @@ dependencies:
   - go-mc==2020.11.17
   - pip
   - pip:
+    - jupyter==1.0.0
     - napari[all]
     - napari-ome-zarr==0.5.2
 
