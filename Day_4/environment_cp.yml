@@ -22,4 +22,5 @@ dependencies:
   - scikit-learn==1.2.2
   - mysqlclient==1.4.6
   - pip:
-    - git+https://github.com/CellProfiler/CellProfiler.git@v4.2.4
+    - jupyter==1.0.0
+    - git+https://github.com/CellProfiler/CellProfiler.git@v4.2.6
