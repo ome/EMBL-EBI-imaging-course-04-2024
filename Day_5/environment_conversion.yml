@@ -9,5 +9,6 @@ dependencies:
   - raw2ometiff
   - pip
   - pip:
+    - jupyter==1.0.0
     - napari[all]
     - napari-ome-zarr==0.5.2
