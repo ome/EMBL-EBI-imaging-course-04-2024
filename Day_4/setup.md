@@ -15,9 +15,9 @@ we suggest using Mamba:
   - Use the [Existing conda install](https://mamba.readthedocs.io/en/latest/installation.html#existing-conda-install) way, i.e. run ``conda install mamba -n base -c conda-forge`` whilst in the base environment. This way can take much longer time than the recommended way described above, and might not lead to a successful installation, especially if run on arm64 (Apple Silicon) OS X.
 
 To avoid conflict with used packages, we have prepared several environments:
-``Day_4/environment_cellpose.yml``, ``Day_4/environment.yml`` and ``Day_4/environment_cp.yml``
+``Day_4/environment_cellpose.yml``, ``Day_4/environment_basic.yml``, ``Day_4/environment_public.yml`` and ``Day_4/environment_cp.yml``
 
-Create the environments. For this, first run the commands below as written, then replace ``Day_4/environment_cellpose.yml`` with ``Day_4/environment.yml`` or ``Day_4/environment_cp.yml`` and run again to create the other envs:
+Create the environments. For this, first run the commands below as written, then replace ``Day_4/environment_cellpose.yml`` with ``Day_4/environment_basic.yml`` or ``Day_4/environment_cp.yml`` and run again to create the other envs:
 
 For Windows, OS X x86_64 (NOT arm64 Apple Silicon), Linux:
 
@@ -54,7 +54,6 @@ The following steps are only required if you want to run the notebooks.
   * To register the environment, run ``python -m ipykernel install --user --name imaging_course_cellpose_day4_2024``
   * Select the notebook you wish to run and select the ``Kernel>Change kernel>Python [conda env:imaging_course_cellpose_day4_2024]`` or ``Kernel>Change kernel>imaging_course_cellpose_day4_2024``
 * If Anaconda is not installed:
-  * In the environment, install ``jupyter`` e.g. ``pip install jupyter``
   * Add the virtualenv as a jupyter kernel i.e. ``ipython kernel install --name "imaging_course_cellpose_day4_2024" --user``
   * Open jupyter notebook i.e. ``jupyter notebook`` and select the ``imaging_course_cellpose_day4_2024`` kernel or ``[conda env:imaging_course_cellpose_day4_2024]`` according to what is available.
 
