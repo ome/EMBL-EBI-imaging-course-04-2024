@@ -1,4 +1,4 @@
-name: imaging_course_day5_2024
+name: imaging_course_cellpose_day5_2024
 channels:
   - conda-forge
 dependencies:
