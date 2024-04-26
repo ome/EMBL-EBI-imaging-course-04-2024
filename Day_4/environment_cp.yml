@@ -4,9 +4,8 @@ channels:
   - anaconda
   - bioconda
   - conda-forge
-  - ome
 dependencies:
-  - ome::zeroc-ice36-python==3.6.5
+  - conda-forge::zeroc-ice==3.6.5
   - h5py==3.7.0
   - pandas==1.5.3
   - pip
